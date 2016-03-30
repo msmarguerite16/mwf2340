@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="major_options">
+        <item>Architecture</item>
+        <item>Industrial Design</item>
+        <item>Landscape Architecture</item>
+        <item>Computational Media</item>
+        <item>Computer Science</item>
+        <item>Aerospace Engineering</item>
+        <item>Biomedical Engineering</item>
+        <item>Chemical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Computer Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Environmental Engineering</item>
+        <item>Industrial Engineering</item>
+        <item>Materials Science and Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Middle School Education Engineering</item>
+        <item>Nuclear Engineering</item>
+        <item>Business Administration</item>
+        <item>Turfgrass Management</item>
+        <item>Economics</item>
+        <item>Furnishings and Interiors</item>
+        <item>History, Technology, and Society</item>
+        <item>International Affairs</item>
+        <item>International Affairs and Modern Language</item>
+        <item>Literature, Media, and Communication</item>
+        <item>Public Policy</item>
+        <item>Applied Mathematics</item>
+        <item>Applied Physics</item>
+        <item>Biochemistry</item>
+        <item>Biology</item>
+        <item>Chemistry</item>
+        <item>Earth and Atmospheric Sciences</item>
+        <item>Fisheries and Wildlife</item>
+        <item>Forestry</item>
+        <item>Psychology</item>
+    </string-array>
+
+    <string-array name="rating_options">
+        <item>0.0</item>
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+        <item>2.5</item>
+        <item>3.0</item>
+        <item>3.5</item>
+        <item>4.0</item>
+        <item>4.5</item>
+        <item>5.0</item>
+    </string-array>
+
+    <string-array name="status_options">
+        <item>Active</item>
+        <item>Banned</item>
+        <item>Locked</item>
+    </string-array>
+
+</resources>

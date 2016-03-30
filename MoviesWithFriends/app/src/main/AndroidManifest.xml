@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.staceefreeman.movieswithfriends">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Movies With Friends"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:label="Register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Profile"
+            android:label="Profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateProfile"
+            android:label="@string/title_activity_create_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditProfile"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Search"
+            android:label="@string/title_activity_search"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.staceefreeman.movieswithfriends.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ReviewMovie"
+            android:label="@string/title_activity_review_movie"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MovieDetails"
+            android:label="@string/title_activity_movie_details"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".RecSearch" />
+        <activity android:name=".RecResults" />
+        <activity
+            android:name=".AdminDashboard"
+            android:label="@string/title_activity_admin_dashboard"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminUserDetails"
+            android:label="@string/title_activity_admin_user_details"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

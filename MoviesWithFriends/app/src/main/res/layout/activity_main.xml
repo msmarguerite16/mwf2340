@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation ="vertical"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/header2"
+            android:layout_marginTop="-15dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginBottom="30dp"
+            android:baselineAlignBottom="false" />
+
+        <TextView
+            android:id="@+id/welcomeTxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Hey %s!"
+            android:textColor="@color/main"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/welcomeTxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="What movie are we feeling today?" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/searchInput"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/bSearch"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:text="Search"
+                android:layout_weight=".40"/>
+
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="-40dp"
+            android:layout_marginBottom="40dp"
+            android:weightSum="1">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="All Movies"
+                android:textSize="12dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/allMovies"
+                android:checked="false" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Releases"
+                android:textSize="12dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/newRelease"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="New DVDs"
+                android:textSize="12dp"
+                android:id="@+id/newDVD"
+                android:checked="false" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/bRecommend"
+            android:text="Get Recommendations"
+            android:layout_marginBottom="10dp"
+            android:background="@color/main"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp" />
+
+        <Button
+            android:id="@+id/bProfile"
+            android:text="Profile"
+            android:layout_marginBottom="10dp"
+            android:background="@color/main"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/bLogout"
+            android:text="Logout"
+            android:layout_marginBottom="10dp"
+            android:background="@color/main"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

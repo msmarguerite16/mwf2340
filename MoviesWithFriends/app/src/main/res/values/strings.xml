@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">movieswithfriends</string>
+    <string name="title_activity_create_profile">CreateProfile</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_register">Register</string>
+    <string name="welcomeTxt">Hey %s! What movie are we feeling today?</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_recommend">Recommend</string>
+    <string name="title_activity_movie_page">MoviePage</string>
+    <string name="title_activity_review">ReviewActivity</string>
+    <string name="title_activity_review_movie">ReviewMovie</string>
+    <string name="title_activity_tester">Tester</string>
+    <string name="title_activity_movie_details">MovieDetails</string>
+    <string name="title_activity_recommend_search">RecommendSearch</string>
+    <string name="title_activity_admin_dashboard">AdminDashboard</string>
+    <string name="title_activity_admin_user_details">AdminUserDetails</string>
+</resources>

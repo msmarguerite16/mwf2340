@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dip"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/holder"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip">
+
+    </LinearLayout>
+
+    <!-- Rating of the Movie (/10) -->
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/holder"
+        android:layout_toRightOf="@+id/holder"
+        android:text="Rihanna Love the way lie all the time, really actually."
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp" />
+
+    <!-- Review Comments -->
+    <TextView
+        android:id="@+id/comments"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rating"
+        android:textSize="15dp"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/holder"
+        android:text="Just gona stand there and ..." />
+
+    <!-- User -->
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comments"
+        android:textSize="13dp"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/holder"
+        android:text="Just gona stand there and ..."
+        android:textStyle="bold"
+        android:textAlignment="textEnd"
+        android:gravity="end" />
+
+    <!-- User's Major -->
+    <TextView
+        android:id="@+id/major"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user"
+        android:textSize="13dp"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/holder"
+        android:text="Just gona stand there and ..."
+        android:textStyle="bold"
+        android:textAlignment="textEnd"
+        android:gravity="end" />
+
+</RelativeLayout>

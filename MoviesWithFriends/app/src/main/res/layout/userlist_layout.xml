@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dip"
+    android:orientation="horizontal" >
+
+    <!-- Username -->
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="anitamann"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp" />
+
+    <!-- User Status -->
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/username"
+        android:gravity="right"
+        android:text="Active"
+        android:layout_marginRight="5dp"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:layout_marginTop="6dp"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>
